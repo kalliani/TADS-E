@@ -27,7 +27,7 @@ public class petshop_pi{
         if (serviço == cadastro_animais) {
         	String registro_animal;
         	
-        	System.out.println("Digite o nome do seu animal, a sua idade, o seu tamanho e suas restrições (alergias, proplemas de saúde e etc.)");
+        	System.out.println("Digite o nome do seu animal, a sua idade, o seu tamanho e suas restrições (alergias, problemas de saúde e etc.)");
         	registro_animal = entrada.nextLine();
         	System.out.println("Prontinho, aqui estão as informações que foram registradas sobre seu animalzinho");
         	System.out.println(registro_animal);
