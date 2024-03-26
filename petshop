@@ -22,7 +22,7 @@ public class petshop_pi{
 		System.out.println("Digite 'f' caso queira comprar algum produto");
 		System.out.println("Digite 'g' caso queira adotar algum animal");
 		String entradaUsuario = entrada.nextLine();
-        serviço = entradaUsuario.charAt(0);
+                serviço = entradaUsuario.charAt(0);
         
         if (serviço == cadastro_animais) {
         	String registro_animal;
@@ -192,6 +192,6 @@ public class petshop_pi{
         	dia = entrada.nextLine();
         	System.out.println("Perfeito! Nos vemos dia " + dia + " , " + animal + " esta feliz de ter um novo dono!");
         }
-  entrada.close();
+        entrada.close();
 	}
 }
