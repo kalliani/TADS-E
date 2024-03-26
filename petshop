@@ -51,7 +51,7 @@ public class petshop_pi{
         	System.out.println("Caso queira dar banho no seu animal, digite 3");
         	System.out.println("Caso queira tosar e dar banho no seu animal, digite 4");
         	System.out.println("Caso queira deixar seu animal na daycare, digite 5");
-            registro_serviço = entrada.nextInt();
+                registro_serviço = entrada.nextInt();
             
             if (registro_serviço == 1) {
             	String horario, data;
