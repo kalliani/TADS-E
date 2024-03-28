@@ -1,37 +1,45 @@
 import java.util.Scanner;
 
-public class petshop_pi{
+public class petshop {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		
-		char serviço;
-		char cadastro_animais = 'a';
-		char cadastro_proprietarios = 'b'; 
-		char cadastro_serviços = 'c';
-		char historico_serviço = 'd';
-		char tipo_animal = 'e'; 
-		char venda_produtos = 'f'; 
-		char venda_animais = 'g';
+
+		int opcao;
 		
 		System.out.println("Bem-vindo ao nosso petshop, digite qual a necessidade de hoje.");
-		System.out.println("Digite 'a' caso queira fazer o cadastro de seu animal.");
-		System.out.println("Digite 'b' caso queira fazer o cadastro de proprietario.");
-		System.out.println("Digite 'c' caso queira fazer o cadastro de serviços.");
-		System.out.println("Digite 'd' caso queria ver o histórico de serviços.");
-		System.out.println("Digite 'e' caso queira registrar o tipo do seu animal");
-		System.out.println("Digite 'f' caso queira comprar algum produto");
-		System.out.println("Digite 'g' caso queira adotar algum animal");
-		String entradaUsuario = entrada.nextLine();
-                serviço = entradaUsuario.charAt(0);
-        
-        if (serviço == cadastro_animais) {
-        	String registro_animal;
-        	
-        	System.out.println("Digite o nome do seu animal, a sua idade, o seu tamanho e suas restrições (alergias, problemas de saúde e etc.)");
-        	registro_animal = entrada.nextLine();
+		System.out.println("1. Cadastro do Pet");
+		System.out.println("2. Cadastro do Proprietário");
+		System.out.println("3. Agendamento de Serviços");
+		System.out.println("4. Histórico de Serviços");
+		System.out.println("5. Venda de Produtos");
+		System.out.println("6. Adoção de Pets");
+        opcao = entrada.nextInt();
+
+if (opcao == 1) {
+		String nome_pet;
+		String idade_pet;
+		String porte_pet;
+		String peso_pet;
+		String anotacoes_pet;
+
+        System.out.println("Digite o nome do seu pet");
+		nome_pet = entrada.nextLine();
+
+		System.out.println("Digite a idade do seu pet");
+		idade_pet = entrada.nextLine();
+
+		System.out.println("Digite o porte do seu pet (pequeno, médio ou grande)");
+		porte_pet = entrada.nextLine();
+
+        System.out.println("Digite o peso do seu pet (formato: 1.55)");
+		peso_pet = entrada.nextLine();
+
+        System.out.println("Adicione neste campo informações extras sobre restroções/alergias do seu pet)");
+		anotacoes_pet = entrada.nextLine();
+
         	System.out.println("Prontinho, aqui estão as informações que foram registradas sobre seu animalzinho");
-        	System.out.println(registro_animal);
-        }
+        	System.out.println("Nome:" + nome_pet + " Idade:" + idade_pet + " Porte:" + porte_pet + " Peso:" + peso_pet + " Anotacoes:" + anotacoes_pet);
+}
         
         else if (serviço == cadastro_proprietarios) {
         	String registro_proprietario;
