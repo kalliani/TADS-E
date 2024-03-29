@@ -4,7 +4,7 @@ public class petshop {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 
-		int opcao;
+int opcao;
 		
 	System.out.println("Bem-vindo ao nosso petshop, digite qual a necessidade de hoje.");
 	System.out.println("1. Cadastro do Pet");
@@ -25,10 +25,10 @@ if (opcao == 1) {
         System.out.println("Digite o nome do seu pet");
 		nome_pet = entrada.next();
 
-		System.out.println("Digite a idade do seu pet");
+	System.out.println("Digite a idade do seu pet");
 		idade_pet = entrada.next();
 
-		System.out.println("Digite o porte do seu pet (pequeno, médio ou grande)");
+	System.out.println("Digite o porte do seu pet (pequeno, médio ou grande)");
 		porte_pet = entrada.next();
 		
         System.out.println("Digite o peso do seu pet (formato: 1.55)");
@@ -45,6 +45,8 @@ if (opcao == 1) {
 		System.out.println(" Peso:" + peso_pet);
 		System.out.println(" Anotacoes:" + anotacoes_pet);
 }
+
+//CODAR A PARITR DAQUI!!!!, PARTE DE CIMA JA ESTÁ OK!!
 
         if (opcao == 2) {
 		String nome_dono;
