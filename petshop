@@ -6,14 +6,18 @@ public class petshop {
 
 int opcao;
 		
-	System.out.println("Bem-vindo ao nosso petshop, digite qual a necessidade de hoje.");
+	System.out.println("{ Bem-vindo ao PetShop! Insira o dígito correspondente a sua necessidade de hoje: } ");
+	System.out.println("");
 	System.out.println("1. Cadastro do Pet");
-	System.out.println("2. Cadastro do Proprietário");
+	System.out.println("2. Cadastro do Proprietário️");
 	System.out.println("3. Agendamento de Serviços");
-	System.out.println("4. Histórico de Serviços");
+	System.out.println("4. Histórico de Serviços️");
 	System.out.println("5. Venda de Produtos");
 	System.out.println("6. Adoção de Pets");
+	System.out.println("7. Eventos do PetShop");
+	System.out.println("");
         opcao = entrada.nextInt();
+	System.out.println("");
 
 if (opcao == 1) {
 		String nome_pet;
@@ -25,21 +29,27 @@ if (opcao == 1) {
         System.out.println("Digite o nome do seu pet");
 		nome_pet = entrada.next();
 
+        System.out.println("");
 	System.out.println("Digite a idade do seu pet");
 		idade_pet = entrada.next();
 
+        System.out.println("");
 	System.out.println("Digite o porte do seu pet (pequeno, médio ou grande)");
 		porte_pet = entrada.next();
 		
+        System.out.println("");
         System.out.println("Digite o peso do seu pet (formato: 1.55)");
 		peso_pet = entrada.next();
 
-        System.out.println("Adicione neste campo informações extras sobre restroções/alergias do seu pet)");
+        System.out.println("");
+        System.out.println("Adicione neste campo informações extras sobre restroções/alergias do seu pet");
 		anotacoes_pet = entrada.next();
 
+        System.out.println("");
         System.out.println("Prontinho, aqui estão as informações que foram registradas sobre seu animalzinho");
-        
-        System.out.println("Nome:" + nome_pet);
+    
+        System.out.println("");
+        System.out.println(" Nome:" + nome_pet);
  		System.out.println(" Idade:" + idade_pet);   
 		System.out.println(" Porte:" + porte_pet);
 		System.out.println(" Peso:" + peso_pet);
