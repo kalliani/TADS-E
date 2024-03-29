@@ -27,7 +27,7 @@ if (opcao == 1) {
 		String anotacoes_pet;
 
         System.out.println("Digite o nome do seu pet");
-		nome_pet = entrada.next();
+		nome_pet = entrada.nextLine();
 
         System.out.println("");
 	System.out.println("Digite a idade do seu pet");
@@ -43,7 +43,7 @@ if (opcao == 1) {
 
         System.out.println("");
         System.out.println("Adicione neste campo informações extras sobre restroções/alergias do seu pet");
-		anotacoes_pet = entrada.next();
+		anotacoes_pet = entrada.nextLine();
 
         System.out.println("");
         System.out.println("Prontinho, aqui estão as informações que foram registradas sobre seu animalzinho");
