@@ -50,10 +50,10 @@ if (opcao == 1) {
     
         System.out.println("");
         System.out.println(" Nome:" + nome_pet);
- 		System.out.println(" Idade:" + idade_pet);   
-		System.out.println(" Porte:" + porte_pet);
-		System.out.println(" Peso:" + peso_pet);
-		System.out.println(" Anotacoes:" + anotacoes_pet);
+ 	System.out.println("Idade:" + idade_pet);   
+	System.out.println("Porte:" + porte_pet);
+	System.out.println("Peso:" + peso_pet);
+	System.out.println("Anotacoes:" + anotacoes_pet);
 }
 
 //CODAR A PARITR DAQUI!!!!, PARTE DE CIMA JA ESTÁ OK!!
