@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class petshopAtt {
+	private static final Scanner scan = new Scanner(System.in);
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
 		menuPrincipal();
 	}
 	public static int lerInt(String tenteNovamente) {
