@@ -6,7 +6,7 @@ public class petshop {
 
 int opcao;
 		
-	System.out.println("{ Bem-vindo ao PetShop! Insira o dígito correspondente a sua necessidade de hoje: } ");
+	System.out.println("{ Bem-vindo ao PetShop! 🐶 Insira o dígito correspondente a sua necessidade de hoje: } ");
 	System.out.println("");
 	System.out.println("1. Cadastro do Pet");
 	System.out.println("2. Cadastro do Proprietário️");
