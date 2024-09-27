@@ -1,11 +1,7 @@
-# TADS-E - Exercício 8.
+# TADS-D
 
-## Grupo 7 - Nomes:
+Grupo 13 - Site de Portfolios Online
 
-+ Alexander Santos Viana
-+ Cleber Junior
-+ Fernanda de Oliveira Gomes
-+ Giovanna Moreira
-+ Kalliani Lima dos Santos
-+ Luis Miguel Mancino Gotsfritz
-+ Taynara Ferreira Rocha
+Luis Miguel Mancino Jacomo Gotsfritz
+Kalliani Lima do Santos
+Fernanda de Oliveira Gomes
